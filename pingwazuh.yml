@@ -1,0 +1,7 @@
+---
+- name: Ping Wazuh
+  hosts: 192.168.10.187
+  gather_facts: false
+  tasks:
+  - name: Ping Wazuh
+    ansible.builtin.ping:
